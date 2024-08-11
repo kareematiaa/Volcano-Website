@@ -1,0 +1,143 @@
+/* Services.css */
+
+.servicesContainer {
+  background: rgb(117, 84, 84);
+  background: linear-gradient(
+    180deg,
+    rgba(117, 84, 84, 1) 0%,
+    rgba(219, 158, 158, 1) 100%
+  );
+  height: 100vh;
+}
+
+.servicesHeader {
+  color: white;
+}
+
+.servicesMain h1 {
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+.viewAllBtn {
+  background-color: #ff847c;
+  border: none;
+  color: white;
+  padding: 10px 50px;
+  cursor: pointer;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.content {
+  padding-top: 190px;
+}
+
+.descriptionBox {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  padding: 20px 10px;
+  margin: 20px 20px;
+  font-size: 1rem;
+  color: #cacaca;
+  text-align: center;
+}
+
+.fisrtCardBody {
+  width: 80%;
+  height: 250px;
+  background-image: url("../../Images/service2.jpg");
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  border-radius: 50px;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.fisrtCardBody:hover {
+  transform: scale(1.1);
+}
+
+/* .secondCardBody {
+  width: 80%;
+  height: 50%;
+  background-image: url("../../Images/service1.jpg");
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  border-radius: 50px;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+} */
+
+.secondCardBody:hover {
+  transform: scale(1.1);
+}
+
+.pics {
+  display: flex;
+  justify-content: center;
+}
+
+.thirdCardBody {
+  width: 80%;
+  height: 100%;
+  background-image: url("../../Images/service3.jpg");
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  border-radius: 50px;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.thirdCardBody:hover {
+  transform: scale(1.1);
+}
+
+.cardSize {
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+}
+
+.viewAllBtn:hover {
+  background-color: #9e4943;
+  transition: 0.01s ease-in-out;
+}
+
+.servicesCards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.serviceCard {
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.serviceCard:hover {
+  transform: scale(1.05);
+}
+
+.serviceImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.serviceCard h3 {
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.serviceCard p {
+  padding: 0 10px 10px 10px;
+  font-size: 1rem;
+  color: #777;
+}

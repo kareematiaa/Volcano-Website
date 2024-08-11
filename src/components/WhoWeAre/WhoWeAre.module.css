@@ -1,0 +1,73 @@
+.bg {
+  background: rgb(10, 23, 34);
+  background: linear-gradient(
+    180deg,
+    rgba(10, 23, 34, 1) 0%,
+    rgba(40, 92, 136, 1) 100%
+  );
+  height: 100vh;
+}
+
+/* WhoWeAre.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.whoContainer {
+  color: white;
+  padding: 30px 10px;
+}
+
+.smallbg {
+  color: #878787;
+  padding-left: 15px;
+}
+
+.backgroundText {
+  font-size: 7rem;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+.descriptionBox {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  padding: 30px;
+  margin: 20px 0;
+  font-size: 1rem;
+  color: #cacaca;
+}
+
+.SdescriptionBox {
+  border-color: rgba(0, 0, 0, 0.3);
+  border: 3px solid rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  padding: 20px;
+  margin: 20px 0;
+  font-size: 1rem;
+  color: #cacaca;
+  text-align: center;
+}
+
+.imageContainer {
+  position: relative;
+  z-index: 2;
+  margin-top: 40px;
+}
+
+.illustrationImage {
+  max-width: 100%;
+  height: auto;
+}
+
+.anim {
+  padding-left: 150px;
+}
+
+.hand {
+  transform: rotate(20deg);
+  color: lightyellow;
+}

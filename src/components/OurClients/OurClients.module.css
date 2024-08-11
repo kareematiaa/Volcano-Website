@@ -1,0 +1,21 @@
+.clients {
+  background-image: url("../../Images/clients.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+}
+
+.contentCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.amzaing {
+  padding-top: 50px;
+  font-size: 4rem;
+}
+.years {
+  font-size: 20px;
+}

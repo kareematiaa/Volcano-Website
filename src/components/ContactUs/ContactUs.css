@@ -1,0 +1,68 @@
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
+.contactUs {
+  padding-left: 745px;
+  margin-bottom: 70px;
+}
+
+.contact-page {
+  background-color: #0a1015;
+  color: white;
+  padding: 50px 0;
+}
+
+.contact-page .lead {
+  font-size: 1.2em;
+}
+
+.contact-page .contact-text {
+  margin-top: 20px;
+  font-size: 1.1em;
+}
+
+.contact-page .contact-info h5 {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.contact-page .contact-info p,
+.contact-page .contact-info a {
+  font-size: 1em;
+}
+
+.contact-page .confidence-text {
+  margin-top: 20px;
+  font-size: 1.1em;
+}
+
+.contact-page .social-icons {
+  margin-top: 10px;
+}
+
+.contact-page .social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 1.5em;
+  transition: color 0.3s;
+}
+
+.contact-page .social-icons a:hover {
+  color: #ffc107;
+}
+
+.texts {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+}
+
+.pic {
+  width: 370px;
+}
