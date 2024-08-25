@@ -22,13 +22,11 @@ import smouha from "../../Images/smouha.png";
 export default function OurClients() {
   return (
     <>
-      <div className={`${styles.clients} pb-5`}>
+      <div className={`${styles.clients} pb-3`}>
         <div className={`text-center text-white container-fluid`}>
           <div>
-            <h1 className={styles.amzaing}>We Work With Amazing Clients</h1>
-            <h6 className={`pt-2 ${styles.years}`}>
-              Some of 30+ businesses we've helped over the past years
-            </h6>
+            <h1 className={styles.amzaing}>Our Clients</h1>
+            <h6 className={`${styles.years}`}>STAND OUT FROM THE CROWD</h6>
           </div>
           <div className="row pt-5">
             <div className="col-md-2 pb-2">
@@ -37,26 +35,26 @@ export default function OurClients() {
             <div className="col-md-2">
               <img className="w-50" src={amer} alt="" />
             </div>
-            <div className={`col-md-2 ${styles.contentCenter}`}>
+            <div className={`col-md-2`}>
               <img className="w-50" src={ahly} alt="" />
             </div>
             <div className="col-md-2">
               <img className="w-50" src={azhar} alt="" />
             </div>
-            <div className={`col-md-2 ${styles.contentCenter}`}>
+            <div className={`col-md-2 `}>
               <img className="w-50" src={ora} alt="" />
             </div>
-            <div className="col-md-2">
+            <div className={`col-md-2 pb-3`}>
               <img className="w-50" src={naia} alt="" />
             </div>
             <div className={`col-md-2 ${styles.contentCenter}`}>
               <img className="w-75" src={adib} alt="" />
             </div>
             <div className={`col-md-2 ${styles.contentCenter}`}>
-              <img className="w-75" src={gates} alt="" />
+              <img className="w-50" src={ezaby} alt="" />
             </div>
             <div className={`col-md-2 ${styles.contentCenter}`}>
-              <img className="w-50" src={ezaby} alt="" />
+              <img className="w-75" src={gates} alt="" />
             </div>
             <div className={`col-md-2 ${styles.contentCenter}`}>
               <img className="w-50" src={lmd} alt="" />
@@ -67,22 +65,22 @@ export default function OurClients() {
             <div className={`col-md-2 pt-3 ${styles.contentCenter}`}>
               <img className="w-50" src={mashrek} alt="" />
             </div>
-            <div className="col-md-2">
+            <div className={`col-md-2 pt-2`}>
               <img className="w-50" src={view} alt="" />
             </div>
-            <div className={`col-md-2 ${styles.contentCenter}`}>
+            <div className={`col-md-2 pt-3`}>
               <img className="w-50" src={palmAlex} alt="" />
             </div>
-            <div className={`col-md-2 ${styles.contentCenter}`}>
+            <div className={`col-md-2 pt-4`}>
               <img className="w-50" src={smouha} alt="" />
             </div>
-            <div className={`col-md-2 ${styles.contentCenter}`}>
+            <div className={`col-md-2 pt-4`}>
               <img className="w-50" src={jdar} alt="" />
             </div>
-            <div className={`col-md-2 ${styles.contentCenter}`}>
+            <div className={`col-md-2 pt-4  `}>
               <img className="w-50" src={palmDev} alt="" />
             </div>
-            <div className={`col-md-2 ${styles.contentCenter}`}>
+            <div className={`col-md-2 pt-4 mt-2`}>
               <img className="w-50" src={seaView} alt="" />
             </div>
           </div>

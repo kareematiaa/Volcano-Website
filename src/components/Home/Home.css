@@ -1,20 +1,21 @@
 .home {
-  background-image: url("../../Images/gif.gif");
+  background-image: url("../../Images/giphy\ \(10\).gif");
   background-size: cover;
   background-position: center center;
   height: 100vh;
 }
 
 .home h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #faf9f6;
-  padding-top: 50px;
+  padding-top: 80px;
+  letter-spacing: 10px;
 }
 .letters h2 {
   color: #faf9f6;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
-  padding-top: 10px;
+  padding-top: 30px;
 }
 
 .navv {
@@ -25,24 +26,11 @@
   cursor: pointer;
 }
 
-.btns {
-  background-color: transparent;
-  border-style: solid;
-  border-width: 1px;
-  border-color: white;
-  border-radius: 50px;
-}
 .homeCenter {
   display: flex;
   justify-content: center;
   padding-top: 40px;
 }
-
-.gradient-text {
-  font-size: 5rem; /* Adjust the font size as needed */
-  font-weight: bold;
-  background: linear-gradient(to bottom, darkblue, lightblue);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+.crowd {
+  padding-top: 130px;
 }

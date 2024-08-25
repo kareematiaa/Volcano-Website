@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
 .contact {
   display: flex;
   justify-content: center;
@@ -7,11 +9,19 @@
   padding-left: 745px;
   margin-bottom: 70px;
 }
+.strongg {
+  font-weight: 600;
+}
 
 .contact-page {
-  background-color: #0a1015;
+  background-color: #101010;
   color: white;
-  padding: 50px 0;
+  padding: 25px 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+.contact-page p {
+  color: rgb(224, 221, 221);
 }
 
 .contact-page .lead {

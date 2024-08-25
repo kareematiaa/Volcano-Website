@@ -1,6 +1,5 @@
 import React from "react";
 import "./Home.css";
-import home from "../../Images/home.png";
 import logo from "../../Images/logo.png";
 import { Link as ScrollLink } from "react-scroll";
 
@@ -34,7 +33,7 @@ export default function Home() {
                     duration={650}
                     className="nav-link text-light cursor"
                   >
-                    About Us
+                    About us
                   </ScrollLink>
                 </li>
                 <li className="nav-item pe-3 cursor">
@@ -49,7 +48,7 @@ export default function Home() {
                 </li>
                 <li className="nav-item pe-3 cursor">
                   <ScrollLink
-                    to="ourClients"
+                    to="Another"
                     smooth={true}
                     duration={650}
                     className="nav-link text-light"
@@ -57,6 +56,18 @@ export default function Home() {
                     Our Work
                   </ScrollLink>
                 </li>
+
+                <li className="nav-item pe-3 cursor">
+                  <ScrollLink
+                    to="outdoor"
+                    smooth={true}
+                    duration={650}
+                    className="nav-link text-light"
+                  >
+                    Outdoor
+                  </ScrollLink>
+                </li>
+
                 <li className="nav-item pe-3 cursor">
                   <ScrollLink
                     to="contactUs"
@@ -71,15 +82,16 @@ export default function Home() {
             </div>
           </div>
         </nav>
-        <div className="homeCenter">
-          <img className="w-50" src={home} alt="" />
-        </div>
-        <h1 className="text-center">STAND OUT FROM THE CROWD</h1>
 
-        <div className="container pt-5 letters">
-          <h2>VOLCANO</h2>
-          <h2>OUTDOOR</h2>
-          <h2>ADVERTISING</h2>
+        <h1 className="text-center pt-5 mt-5 crowd">
+          STAND OUT FROM THE CROWD
+        </h1>
+        <div className="crowd">
+          <div className="container letters">
+            <h2>VOLCANO</h2>
+            <h2>OUTDOOR</h2>
+            <h2>ADVERTISING</h2>
+          </div>
         </div>
       </div>
     </>

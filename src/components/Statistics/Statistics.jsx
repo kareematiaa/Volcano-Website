@@ -25,12 +25,12 @@ export default function Statistics() {
                   onMouseEnter={handleMouseEnter}
                   onMouseLeave={handleMouseLeave}
                 >
-                  <span className={`${styles.myicon} `}>365</span>
+                  <span className={`${styles.myicon} `}>121</span>
                 </div>
                 <h5
                   className={`text-center pt-5 pb-3 ${styles.vibratingDiv} ${
                     isHovered ? "vibrating" : ""
-                  }`}
+                  } ${styles.texttt}`}
                 >
                   Happy Clients
                 </h5>
@@ -57,7 +57,7 @@ export default function Statistics() {
                   onMouseEnter={handleMouseEnter}
                   onMouseLeave={handleMouseLeave}
                 >
-                  <span className={`${styles.myicon} `}>123</span>
+                  <span className={`${styles.myicon} `}>211</span>
                 </div>
                 <h5
                   className={`text-center pt-5 pb-3 ${styles.vibratingDiv} ${
@@ -73,7 +73,7 @@ export default function Statistics() {
                   onMouseEnter={handleMouseEnter}
                   onMouseLeave={handleMouseLeave}
                 >
-                  <span className={`${styles.myicon} `}>365</span>
+                  <span className={`${styles.myicon} `}>211</span>
                 </div>
                 <h5
                   className={`text-center pt-5 pb-3 ${styles.vibratingDiv} ${

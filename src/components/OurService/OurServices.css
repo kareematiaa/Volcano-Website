@@ -1,0 +1,233 @@
+/* Services.css */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+.services-section {
+  /* background: linear-gradient(220deg, #000000, #000000, #fc3200); */
+  /* background: radial-gradient(
+    circle at bottom left,
+    #ff9c56,
+    #d85800,
+    #000000,
+    #000000,
+    #000000,
+    #000000
+  ); */
+  /* background: radial-gradient(
+      circle at top center,
+      #ff9c56,
+      #d85800,
+      #1c1c1c,
+      #1c1c1c,
+      #1c1c1c
+    ),
+    radial-gradient(circle at bottom left, #ff9c56, #1c1c1c, #1c1c1c); */
+  /* background: linear-gradient(120deg, #d0e4ed 40%, #fb6648 100%); */
+  background-image: url("../../Images/serviceBg.png");
+  background-size: cover;
+  background-position: center;
+  font-family: "Work Sans", sans-serif;
+}
+.semi {
+  font-size: 0.8rem;
+  color: rgb(225, 222, 222);
+}
+.services-text {
+  color: white;
+  padding: 30px;
+  padding-top: 140px;
+}
+
+.cont {
+  padding: 0px 35px;
+}
+.services-text h2 {
+  font-size: 2.7rem;
+  margin-bottom: 10px;
+  color: rgb(38, 37, 37);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  padding-left: 6px;
+}
+
+.services-text p {
+  margin-bottom: 20px;
+  color: rgb(48, 47, 47);
+  padding: 10px;
+  font-size: 18px;
+}
+
+.service-item {
+  height: 12rem;
+}
+
+.itemm {
+  padding-bottom: 50px;
+  padding-left: 40px;
+  text-align: start;
+}
+.service-item h4 {
+  text-transform: uppercase;
+  color: rgb(27, 27, 27);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.service-item p {
+  color: rgb(21, 21, 21);
+  font-size: 0.85rem;
+}
+
+.bla {
+  font-size: 40px !important;
+}
+
+.service-icon {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  /* color: #d6c569; */
+  color: rgb(208, 205, 205);
+  text-shadow: 2px 2px 6px rgb(36, 35, 35);
+}
+
+.blaa {
+  padding-top: 4px;
+}
+p {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: rgba(240, 248, 255, 0.651);
+}
+
+.line {
+  width: 80px;
+  height: 2px;
+  background-color: rgb(56, 55, 55);
+  margin-top: 5px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+.ayyy {
+  padding: 0px;
+  margin: 0px;
+}
+.servicesContainer {
+  background: rgb(117, 84, 84);
+  background: linear-gradient(
+    180deg,
+    rgba(117, 84, 84, 1) 0%,
+    rgba(219, 158, 158, 1) 100%
+  );
+  height: 100vh;
+}
+
+.servicesHeader {
+  color: white;
+}
+
+.servicesMain h1 {
+  font-size: 2.5rem;
+}
+
+/* .viewAllBtn {
+  background-color: #ff847c;
+  border: none;
+  color: white;
+  padding: 10px 50px;
+  cursor: pointer;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+} */
+
+/* .descriptionBox {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  padding: 20px 10px;
+  margin: 20px 20px;
+  font-size: 1rem;
+  color: #cacaca;
+  text-align: center;
+}
+
+.fisrtCardBody {
+  width: 80%;
+  height: 250px;
+  background-image: url("../../Images/service2.jpg");
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  border-radius: 50px;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.fisrtCardBody:hover {
+  transform: scale(1.1);} */
+
+/* .secondCardBody:hover {
+  transform: scale(1.1);
+}
+
+.pics {
+  display: flex;
+  justify-content: center;
+}
+
+.thirdCardBody {
+  width: 80%;
+  height: 100%;
+  background-image: url("../../Images/service3.jpg");
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  border-radius: 50px;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.thirdCardBody:hover {
+  transform: scale(1.1);
+}
+
+.cardSize {
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+}
+
+.viewAllBtn:hover {
+  background-color: #9e4943;
+  transition: 0.01s ease-in-out;
+}
+
+.servicesCards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.serviceCard {
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.serviceCard:hover {
+  transform: scale(1.05);
+}
+
+.serviceImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.serviceCard h3 {
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.serviceCard p {
+  padding: 0 10px 10px 10px;
+  font-size: 1rem;
+  color: #777;
+} */

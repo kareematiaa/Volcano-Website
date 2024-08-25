@@ -1,77 +1,64 @@
-/* h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: #1e1e1e;
-} */
-
-
 .bgcolors {
-    background-color: #755454;
-
+  background: rgb(195, 189, 189);
+  background: linear-gradient(
+    0deg,
+    rgb(52, 51, 51) 0%,
+    rgb(77, 74, 74) 45%,
+    rgba(6, 6, 6, 1) 100%
+  );
 }
-
 
 .services p::after {
-    content: "";
-    position: absolute;
-    background-color: #0078ff;
-    width: 40px;
-    height: 4px;
-    bottom: -25px;
-    left: 49%;
+  content: "";
+  position: absolute;
+  background-color: #0078ff;
+  width: 40px;
+  height: 4px;
+  bottom: -25px;
+  left: 49%;
 }
-
 
 .myicon {
-    border: 7px solid #e6d49e;
-    border-radius: 50%;
-    padding: 20px;
-    text-align: center;
-    font-size: 30px;
-    transition: all 0.4s;
+  border: 7px solid #d6c569;
+  border-radius: 50%;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  transition: all 0.4s;
 }
-
 
 .myicon:hover {
-    background-color: #e6d49e;
-    border-color: #755454;
-    color: #1e1e1e;
-
+  border: 7px solid #755454;
+  border-radius: 50%;
 }
-
 
 .number {
-
-    background-size: cover;
-    background-position: center center;
+  background-size: cover;
+  background-position: center center;
 }
 
-
-.hoverMe:hover+.vibratingDiv {
-    animation: vibrate 0.9s infinite;
+.hoverMe:hover + .vibratingDiv {
+  animation: vibrate 0.9s infinite;
 }
 
 @keyframes vibrate {
-    0% {
-        transform: translateY(0px);
-    }
+  0% {
+    transform: translateY(0px);
+  }
 
-    25% {
-        transform: translateY(-2px);
-    }
+  25% {
+    transform: translateY(-2px);
+  }
 
-    50% {
-        transform: translateY(2px);
-    }
+  50% {
+    transform: translateY(2px);
+  }
 
-    75% {
-        transform: translateY(-2px);
-    }
+  75% {
+    transform: translateY(-2px);
+  }
 
-    100% {
-        transform: translateY(0px);
-    }
+  100% {
+    transform: translateY(0px);
+  }
 }

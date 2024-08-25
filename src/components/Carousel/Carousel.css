@@ -1,0 +1,54 @@
+.text {
+  color: black;
+}
+
+.carousell {
+  height: 100vh;
+}
+
+.coll {
+  padding-top: 80px;
+}
+
+.textt {
+  width: 74.6%;
+  margin-left: 85px;
+  border-radius: 50px;
+  background-color: rgba(242, 243, 247, 0.786);
+}
+/* .carousel-container {
+  width: 80%;
+  margin: auto;
+}
+
+.carousel-slide {
+  position: relative;
+  padding: 10px;
+  overflow: hidden;
+  transition: transform 0.5s ease, filter 0.5s ease;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.slick-center .carousel-slide {
+  transform: scale(1.1);
+  z-index: 2; /* Bring the centered slide to the front 
+}
+
+.slick-center img {
+  filter: brightness(1);
+}
+
+.carousel-slide img {
+  filter: brightness(0.5);
+}
+
+.slick-slide:not(.slick-center) .carousel-slide {
+  transform: scale(0.9);
+  z-index: 1;
+}*/

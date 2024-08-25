@@ -7,24 +7,29 @@ import WhoWeAre from "../WhoWeAre/WhoWeAre";
 import { Element } from "react-scroll";
 
 import "./App.css";
+import Carousel from "../Carousel/Carousel";
+import Carousel2 from "../Carousel2/Carousel2";
+import Carousel3 from "../Carousel3/Carousel3";
+import OurWork from "../OurWork/OurWork";
+import OurWork2 from "../OurWork2/OurWork2";
+import Outdoor from "../Outdoor/Outdoor";
+import Another from "../Another/Another";
 
 function App() {
   return (
     <>
-      <Element name="home">
-        <Home />
-      </Element>
+      <Home />
       <Element name="whoWeAre">
         <WhoWeAre />
       </Element>
-      <Element name="ourServices">
-        <OurServices />
+      <OurServices />
+      <Element name="outdoor">
+        <Outdoor />
       </Element>
-      <Element name="ourClients">
-        <OurClients />
-      </Element>
-      <Element name="statistics">
-        <Statistics />
+      <Statistics />
+      <OurClients />
+      <Element name="Another">
+        <Another />
       </Element>
       <Element name="contactUs">
         <ContactUs />

@@ -1,0 +1,100 @@
+/* .font1 {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  color: white;
+  font-size: 5rem;
+}
+
+.moving-text {
+  animation: move-right 10s infinite linear;
+}
+
+@keyframes move-right {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+    animation-iteration-count: 1; 
+  }
+} */
+
+.work {
+  font-size: 3.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  padding-top: 50px;
+  color: rgb(100, 99, 99);
+}
+
+.bgb {
+  background: rgb(251, 244, 244);
+  background: linear-gradient(
+    90deg,
+    rgba(251, 244, 244, 1) 8%,
+    rgba(185, 185, 185, 1) 100%
+  );
+}
+
+.lines {
+  width: 90px;
+  height: 2px;
+  background-color: rgb(90, 89, 89);
+  margin-top: 5px;
+  margin-bottom: 15px;
+  margin-left: 620px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(
+    3,
+    1fr
+  ); /* Adjust the number of columns as needed */
+  gap: 20px;
+  padding: 20px;
+}
+
+.grid-item {
+  position: relative;
+  overflow: hidden; /* Ensures the image stays within its container when zoomed */
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Ensures the border-radius stays when hovered */
+  transition: transform 0.3s ease-in-out;
+}
+
+.grid-item:hover img {
+  transform: scale(1.1); /* Slightly zooms the image on hover */
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  height: 100%; /* Cover the entire grid item */
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  border-radius: 10px; /* Ensures the overlay matches the border-radius */
+}
+
+.grid-item:hover .overlay {
+  opacity: 1; /* Show the overlay on hover */
+}
+
+.text {
+  color: white;
+  font-size: 1rem;
+
+  text-align: start;
+  padding: 20px;
+}
