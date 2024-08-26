@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Volcano-Website/static/css/main.7ec623c2.css",
-    "main.js": "/Volcano-Website/static/js/main.01f6114c.js",
+    "main.css": "/Volcano-Website/static/css/main.d5269de4.css",
+    "main.js": "/Volcano-Website/static/js/main.9f35e02e.js",
     "static/js/453.c86f4546.chunk.js": "/Volcano-Website/static/js/453.c86f4546.chunk.js",
     "static/media/giphy (10).gif": "/Volcano-Website/static/media/giphy (10).db8c8d2cd5d547eed711.gif",
     "static/media/service1.jpg": "/Volcano-Website/static/media/service1.800037349724eb0c620f.jpg",
@@ -14,7 +14,6 @@
     "static/media/out5.png": "/Volcano-Website/static/media/out5.9d419da1eb4d21e7e1bb.png",
     "static/media/out1.png": "/Volcano-Website/static/media/out1.2728ed42ee2323fe3810.png",
     "static/media/who.png": "/Volcano-Website/static/media/who.3edfa9b1caf7a00180f0.png",
-    "static/media/serviceBg.png": "/Volcano-Website/static/media/serviceBg.ced3a53de037dcbfcd58.png",
     "static/media/fa-solid-900.ttf": "/Volcano-Website/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/who2.png": "/Volcano-Website/static/media/who2.02a4ae359eb0a92bcf62.png",
     "static/media/fa-brands-400.ttf": "/Volcano-Website/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
@@ -51,12 +50,12 @@
     "static/media/slick.ttf": "/Volcano-Website/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Volcano-Website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Volcano-Website/index.html",
-    "main.7ec623c2.css.map": "/Volcano-Website/static/css/main.7ec623c2.css.map",
-    "main.01f6114c.js.map": "/Volcano-Website/static/js/main.01f6114c.js.map",
+    "main.d5269de4.css.map": "/Volcano-Website/static/css/main.d5269de4.css.map",
+    "main.9f35e02e.js.map": "/Volcano-Website/static/js/main.9f35e02e.js.map",
     "453.c86f4546.chunk.js.map": "/Volcano-Website/static/js/453.c86f4546.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ec623c2.css",
-    "static/js/main.01f6114c.js"
+    "static/css/main.d5269de4.css",
+    "static/js/main.9f35e02e.js"
   ]
 }
