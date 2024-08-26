@@ -39,8 +39,8 @@ export default function OurServices() {
                       <span class="material-symbols-outlined service-icon bla">
                         engineering
                       </span>
-                      <h4 className="service-header">Steel Production</h4>
-                      <p className="service-content">
+                      <h4 className="service-header pb-3">Steel Production</h4>
+                      <p className="service-content pe-4">
                         These drawings are then brought to life using
                         high-quality metal products, meticulously crafted at our
                         state-of-the-art factories.
@@ -57,7 +57,7 @@ export default function OurServices() {
                       <h4 className="service-header">
                         Steel Fabrication Drawing
                       </h4>
-                      <p className="service-content">
+                      <p className="service-content pe-4">
                         Our process begins with our skilled engineers creating
                         precise and secure banner designs.
                       </p>
@@ -85,11 +85,11 @@ export default function OurServices() {
                 <div className="col-md-4 ">
                   <div className="service-item pt-3">
                     <div className="">
-                      <span className="material-symbols-outlined service-icon bla ps-3">
+                      <span className="material-symbols-outlined service-icon bla">
                         acute
                       </span>
-                      <h4 className="service-header ps-3">Fast Installation</h4>
-                      <p className="service-content px-3">
+                      <h4 className="service-header">Fast Installation</h4>
+                      <p className="service-content pe-4">
                         Our commitment to excellence extends to the installation
                         process. We guarantee fast and efficient banner
                         placement in prime locations with high traffic,

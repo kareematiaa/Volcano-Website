@@ -22,7 +22,9 @@ function App() {
       <Element name="whoWeAre">
         <WhoWeAre />
       </Element>
-      <OurServices />
+      <Element name="ourServices">
+        <OurServices />
+      </Element>
       <Element name="outdoor">
         <Outdoor />
       </Element>
