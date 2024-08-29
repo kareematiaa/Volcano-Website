@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/Volcano-Website/static/css/main.dbe7498f.css",
-    "main.js": "/Volcano-Website/static/js/main.6433617b.js",
+    "main.css": "/Volcano-Website/static/css/main.765bf29b.css",
+    "main.js": "/Volcano-Website/static/js/main.02ad8202.js",
     "static/js/453.c86f4546.chunk.js": "/Volcano-Website/static/js/453.c86f4546.chunk.js",
-    "static/media/giphy (10).gif": "/Volcano-Website/static/media/giphy (10).db8c8d2cd5d547eed711.gif",
     "static/media/service1.jpg": "/Volcano-Website/static/media/service1.800037349724eb0c620f.jpg",
     "static/media/service2.jpg": "/Volcano-Website/static/media/service2.2f3cdd39ec1b042fca6e.jpg",
     "static/media/out6.png": "/Volcano-Website/static/media/out6.0ac443b0cf3f898b0c23.png",
@@ -50,12 +49,12 @@
     "static/media/slick.ttf": "/Volcano-Website/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Volcano-Website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Volcano-Website/index.html",
-    "main.dbe7498f.css.map": "/Volcano-Website/static/css/main.dbe7498f.css.map",
-    "main.6433617b.js.map": "/Volcano-Website/static/js/main.6433617b.js.map",
+    "main.765bf29b.css.map": "/Volcano-Website/static/css/main.765bf29b.css.map",
+    "main.02ad8202.js.map": "/Volcano-Website/static/js/main.02ad8202.js.map",
     "453.c86f4546.chunk.js.map": "/Volcano-Website/static/js/453.c86f4546.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbe7498f.css",
-    "static/js/main.6433617b.js"
+    "static/css/main.765bf29b.css",
+    "static/js/main.02ad8202.js"
   ]
 }
