@@ -6,9 +6,9 @@ export default function WhoWeAre() {
   return (
     <>
       <div>
-        <div>
+        <div className="">
           <div className="hero-section">
-            <div className="text-content">
+            <div className="text-content py-3">
               <span className="subheading">Who We Are ?</span>
               <h1 className="main-heading">
                 Egypt's premier outdoor <br /> advertising agency.

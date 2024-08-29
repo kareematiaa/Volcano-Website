@@ -5,9 +5,11 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; */
-  background-color: #e1e1e1;
+  background-color: #d1d1d1;
   height: fit-content;
   font-family: "Work Sans", sans-serif;
+  padding-bottom: 130px;
+  padding-top: 40px;
 }
 
 .contentCenter {
@@ -18,10 +20,12 @@
 }
 
 .amzaing {
-  padding-top: 30px;
+  padding-top: 80px;
   font-size: 3.5rem;
-  color: #0a1015;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-weight: 550;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  color: rgb(54, 53, 53);
+  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
 }
 .years {

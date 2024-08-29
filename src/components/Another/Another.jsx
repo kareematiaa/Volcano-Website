@@ -38,10 +38,11 @@ export default function Another() {
   ];
   return (
     <>
-      <div className="container-fluid pb-5 bgb">
-        <div className="text-center">
-          <h1 className="work">Our Work</h1>
-          <div className="lines"></div>
+      <div className="container-fluid bgb">
+        <div className="Tlinee"></div>
+        <div className="text-center workdev">
+          <h1 className="work">OUR WORK</h1>
+          <h6 className={`years`}>STAND OUT FROM THE CROWD</h6>
         </div>
         <div className="grid-container">
           {images.map((image, index) => (

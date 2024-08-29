@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 .all {
-  padding-bottom: 60px;
+  padding-bottom: 80px;
   /* background-image: linear-gradient(120deg, white 0%, rgb(40, 40, 40) 100%); */
 
-  background-color: #c6cdd4;
+  background-color: #d1d1d1;
   position: relative;
   overflow: hidden;
   font-family: "Work Sans", sans-serif;
@@ -39,15 +39,28 @@
 }
 
 .title1 {
-  padding-top: 70px;
+  padding-top: 50px;
   padding-bottom: 10px;
   font-size: 3rem;
+  font-weight: 550;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  font-family: "Poppins", sans-serif;
+  color: rgb(54, 53, 53);
+}
+
+.yearsO {
+  font-size: 13px;
+  color: #757576;
+  letter-spacing: 8.5px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-  font-weight: 900;
+  padding-left: px;
 }
 .Tline {
   height: 2px;
-  background-color: rgb(54, 54, 54);
+  background-color: rgb(178, 178, 178);
+  width: 75%;
+  margin: auto;
+  margin-top: 130px;
 }
 .space {
   margin-left: 100px;

@@ -50,8 +50,12 @@ export default function Outdoor() {
         <div className="">
           <div>
             <div className="container">
-              <h1 className="title1">TRADITIONAL OUTDOOR ADS</h1>
-              <div className="Tline"></div>
+              <h1 className="title1 text-center mt-5">
+                TRADITIONAL OUTDOOR ADS
+              </h1>
+              <h6 className={`yearsO tex  text-center`}>
+                STAND OUT FROM THE CROWD
+              </h6>
             </div>
             <div className="d-flex justify-content-center">
               <div className="sliderr">
@@ -67,13 +71,16 @@ export default function Outdoor() {
             </div>
           </div>
 
+          <div className="Tline"></div>
           <div>
-            <div className="pt-5 mt-5 container">
-              <h1 className="title1">DIGITAL OUTDOOR ADS</h1>
-              <div className="Tline"></div>
+            <div className="pt-5 container">
+              <h1 className="title1 text-center">DIGITAL OUTDOOR ADS</h1>
+              <h6 className={`yearsO tex  text-center`}>
+                STAND OUT FROM THE CROWD
+              </h6>
             </div>
           </div>
-          <div className="d-flex justify-content-center">
+          <div className="d-flex justify-content-center pb-5">
             <div className="sliderr">
               <Slider {...settings} className="">
                 {images2.map((image2, index) => (

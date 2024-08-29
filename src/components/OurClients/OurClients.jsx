@@ -22,7 +22,7 @@ import smouha from "../../Images/smouha.png";
 export default function OurClients() {
   return (
     <>
-      <div className={`${styles.clients} pb-3`}>
+      <div className={`${styles.clients} `}>
         <div className={`text-center text-white container-fluid`}>
           <div>
             <h1 className={styles.amzaing}>Our Clients</h1>
